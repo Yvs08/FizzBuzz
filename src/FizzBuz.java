@@ -2,7 +2,7 @@ import java.util.List;
 
 public class FizzBuz {
 
-    public static void main(String... agr) throws Exception {
+    public static void main(String... agr) {
 
         FizzBuz fizzBuz = new FizzBuz();
         fizzBuz.checkAlgoFizzBuzz(List.of(1, 3, 4, 6, 9, 100, 1000, 3000, 8934));
