@@ -1,2 +1,2 @@
 # FizzBuzz
-run file FizzBuzz.java 
+run file src/FizzBuzz.java 
