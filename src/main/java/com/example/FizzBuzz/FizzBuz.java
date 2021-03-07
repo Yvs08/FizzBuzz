@@ -72,7 +72,7 @@ public class FizzBuz {
      * Feature qui traite algorithm fizzBuzz
      * Return un string
      * */
-    private static String checkFizzOrBuzz(Integer i) {
+    public static String checkFizzOrBuzz(Integer i) {
         return i % 3 == 0 ? (i % 5 == 0 ? "FizzBuzz" : "Fizz") : (i % 5 == 0 ? "Buzz" : String.valueOf(i));
     }
 

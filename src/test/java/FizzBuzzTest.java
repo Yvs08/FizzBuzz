@@ -39,4 +39,12 @@ public class FizzBuzzTest {
         assertEquals(expected, actual);
 
     }
+
+    @Test
+    public void checkFizzOrBuzz(){
+        String actual = "Fizz" ;
+        String expected = FizzBuz.checkFizzOrBuzz(3);
+        assertEquals(expected, actual);
+
+    }
 }
